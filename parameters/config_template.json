@@ -1,41 +1,12 @@
 {
-    "MySQL": {
-        "host": "HostName",
-        "username": "username",
-        "password": "password",
-        "database": "database"
-    },
-    "SQLServerDatabase": {
-        "Prod": {
+    "Neutrino": {
             "driver": "ODBC Driver 17 for SQL Server",
-            "server": "server",
-            "database": "database",
-            "ADUser": "Yes",
-            "username": "username",
-            "password": "password"
-        },
-        "Dev": {
-            "driver": "ODBC Driver 17 for SQL Server",
-            "server": "server",
-            "database": "database-DEV",
-            "ADUser": "Yes",
-            "username": "username",
-            "password": "password"
-        }
+            "server": ".database.windows.net",
+            "database": "",
+            "username": "",
+            "password": ""
     },
-    "MYSQL With SSH": {
-        "mypkeypass": "passkey pass",
-        "sql_hostname": "hostname",
-        "sql_username": "username",
-        "sql_password": "password",
-        "sql_main_database": "database",
-        "sql_port": 3306,
-        "ssh_host": "ssh host",
-        "ssh_user": "ssh user",
-        "ssh_port": 22,
-        "ssh_password": "ssh password"
-    },
-    "env": "prod",
+
     "Email": {
         "sender_email": "do-not-reply@something.com",
         "receiver_email": "email",
