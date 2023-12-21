@@ -144,6 +144,8 @@ cython_debug/
 
 
 
+cache/
+exports/
 
 
 
