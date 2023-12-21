@@ -1,18 +1,20 @@
 {
     "Neutrino": {
-            "driver": "ODBC Driver 17 for SQL Server",
-            "server": ".database.windows.net",
-            "database": "",
-            "username": "",
-            "password": ""
+        "driver": "ODBC Driver 18 for SQL Server",
+        "server": "",
+        "database": "",
+        "username": "",
+        "password": "",
+        "encrypt": "",
+        "trust_server_certificate": "no",
+        "connection_timeout": "30"
     },
-
     "Email": {
         "sender_email": "do-not-reply@something.com",
         "receiver_email": "email",
         "smtp_server": "",
         "smtp_port": "25"
     },
-    "OpenAI_API": "your API Key",
-    "Pinecone_API": "your API Key"
+    "OpenAI_API": "",
+    "Pinecone_API": ""
 }
